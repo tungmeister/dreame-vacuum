@@ -13,12 +13,15 @@ UNIT_TIMES: Final = "x"
 
 CONF_NOTIFY: Final = "notify"
 CONF_COLOR_SCHEME: Final = "color_scheme"
+CONF_COLOR_SCHEME_BACKGROUND: Final = "color_scheme_background"
 CONF_ICON_SET: Final = "icon_set"
 CONF_COUNTRY: Final = "country"
 CONF_TYPE: Final = "configuration_type"
 CONF_MAC: Final = "mac"
 CONF_DID: Final = "did"
 CONF_MAP_OBJECTS: Final = "map_objects"
+CONF_MAP_OBJECTS_OVERLAY: Final = "map_objects_overlay"
+CONF_MAP_OBJECTS_BACKGROUND: Final = "map_objects_background"
 CONF_PREFER_CLOUD: Final = "prefer_cloud"
 CONF_LOW_RESOLUTION: Final = "low_resolution"
 CONF_SQUARE: Final = "square"
@@ -54,6 +57,66 @@ MAP_OBJECTS: Final = {
     "furniture": "Furniture",
     "cruise_point": "Cruise Points",
 }
+
+MAP_OBJECTS_OVERLAY: Final = {
+    "color": "Room Colors",
+    "icon": "Room Icons",
+    "name": "Room Names",
+    "name_background": "Room Name Background",
+    "order": "Room Order",
+    "suction_level": "Room Suction Level",
+    "water_volume": "Room Water Volume",
+    "cleaning_times": "Room Cleaning Times",
+    "cleaning_mode": "Room Cleaning Mode",
+    "mopping_mode": "Room Mopping Mode",
+    "path": "Path",
+    "no_go": "No Go Zones",
+    "no_mop": "No Mop Zones",
+    "virtual_wall": "Virtual Walls",
+    "pathway": "Pathways",
+    "active_area": "Active Areas",
+    "active_point": "Active Points",
+    "charger": "Charger Icon",
+    "robot": "Robot Icon",
+    "cleaning_direction": "Cleaning Direction",
+    "obstacle": "AI Obstacle",
+    "pet": "Pet",
+    "carpet": "Carpet Area",
+    "material": "Floor Material",
+    "furniture": "Furniture",
+    "cruise_point": "Cruise Points",
+}
+
+MAP_OBJECTS_BACKGROUND: Final = {
+    "color": "Room Colors",
+    "icon": "Room Icons",
+    "name": "Room Names",
+    "name_background": "Room Name Background",
+    "order": "Room Order",
+    "suction_level": "Room Suction Level",
+    "water_volume": "Room Water Volume",
+    "cleaning_times": "Room Cleaning Times",
+    "cleaning_mode": "Room Cleaning Mode",
+    "mopping_mode": "Room Mopping Mode",
+    "path": "Path",
+    "no_go": "No Go Zones",
+    "no_mop": "No Mop Zones",
+    "virtual_wall": "Virtual Walls",
+    "pathway": "Pathways",
+    "active_area": "Active Areas",
+    "active_point": "Active Points",
+    "charger": "Charger Icon",
+    "robot": "Robot Icon",
+    "cleaning_direction": "Cleaning Direction",
+    "obstacle": "AI Obstacle",
+    "pet": "Pet",
+    "carpet": "Carpet Area",
+    "material": "Floor Material",
+    "furniture": "Furniture",
+    "cruise_point": "Cruise Points",
+}
+
+
 NOTIFICATION: Final = {
     "cleanup_completed": "Cleanup Completed",
     "consumable": "Consumable",

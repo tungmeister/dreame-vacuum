@@ -5801,7 +5801,7 @@ class DreameVacuumMapRenderer:
                     self._robot_cleaning_direction_icon = None
 
             bg_color = (
-                (0, 0, 0, 255)
+                (33, 33, 33, 255)
                 if self.color_scheme.dark or self.color_scheme.invert
                 else (255, 255, 255, 255)
                 if info_text

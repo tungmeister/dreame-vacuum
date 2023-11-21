@@ -3364,7 +3364,9 @@ class MapRendererColorScheme:
 
 
 MAP_COLOR_SCHEME_LIST: Final = {
-    "Dreame Light": MapRendererColorScheme(),
+    "Dreame Light": MapRendererColorScheme(
+        dark=true,
+    ),
     "Dreame Dark": MapRendererColorScheme(
         floor=(110, 110, 110, 255),
         wall=(64, 64, 64, 255),
